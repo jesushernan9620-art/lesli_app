@@ -1,0 +1,111 @@
+<resources>
+    <!-- App informacion -->
+    <string name="app_name">Lesli Mobile</string>
+    <string name="top_app_bar_title_default">Lesli Mobile</string>
+
+    <!-- Navigacion -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_assistant">Asistente</string>
+    <string name="nav_tasks">Tareas</string>
+    <string name="nav_history">Historial</string>
+    <string name="nav_profile">Perfil</string>
+
+    <!-- Content descripciones -->
+    <string name="cd_notifications">Notificaciones</string>
+    <string name="cd_send">Enviar</string>
+    <string name="cd_attach_file">Adjuntar archivo</string>
+    <string name="cd_microphone">Micrófono</string>
+    <string name="cd_delete_conversation">Eliminar conversación</string>
+    <string name="cd_add_task">Agregar Tarea</string>
+    <string name="cd_edit_task">Editar Tarea</string>
+    <string name="cd_delete_task">Eliminar Tarea</string>
+    <string name="cd_avatar">Avatar</string>
+    <string name="cd_edit_profile">Editar perfil</string>
+    <string name="cd_search">Buscar</string>
+    <string name="cd_clear">Limpiar</string>
+
+    <!-- General Buttons & Actions -->
+    <string name="btn_save">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_ok">Entendido</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">¡Hola, %1$s! ✨</string>
+    <string name="home_subtitle">Tu asistente inteligente te acompaña hoy</string>
+    <string name="home_chat_card_title">Conversa con Lesli</string>
+    <string name="home_chat_card_subtitle">¿En qué puedo inspirarte u organizarte hoy?</string>
+    <string name="home_quick_query_placeholder">Escribe tu consulta cósmica...</string>
+    <string name="home_card_tasks_title">Tareas</string>
+    <string name="home_tasks_pending_count">%1$d pendientes</string>
+    <string name="home_card_history_title">Historial</string>
+    <string name="home_history_conv_count">%1$d conversaciones</string>
+    <string name="home_section_pending_tasks">Tareas pendientes</string>
+    <string name="home_view_all">Ver todas</string>
+    <string name="home_no_pending_tasks">¡Al día! No tienes tareas pendientes.</string>
+    <string name="home_task_due">Vence: %1$s</string>
+    <string name="home_section_recent_activity">Actividad reciente</string>
+    <string name="home_no_recent_activity">Aún no hay actividad registrada.</string>
+
+    <!-- Assistant Screen -->
+    <string name="assistant_title">Asistente Lesli</string>
+    <string name="assistant_subtitle">Acompañamiento e inteligencia cósmica</string>
+    <string name="assistant_btn_new">Nueva</string>
+    <string name="assistant_input_placeholder">Escribe a Lesli...</string>
+    <string name="assistant_dialog_title">Próximamente en Lesli Mobile</string>
+    <string name="assistant_typing">Lesli está pensando</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Historial de conversaciones</string>
+    <string name="history_search_placeholder">Buscar en conversaciones anteriores...</string>
+    <string name="history_empty_search_title">Sin resultados</string>
+    <string name="history_empty_title">Historial vacío</string>
+    <string name="history_empty_search_desc">No encontramos conversaciones que coincidan con \"%1$s\".</string>
+    <string name="history_empty_desc">Tus conversaciones con el Asistente Lesli se guardarán aquí.</string>
+
+    <!-- Tasks Screen -->
+    <string name="tasks_title">Mis tareas</string>
+    <string name="tasks_pending_label">Pendientes</string>
+    <string name="tasks_completed_label">Completadas</string>
+    <string name="tasks_filter_all">Todas</string>
+    <string name="tasks_filter_pending">Pendientes</string>
+    <string name="tasks_filter_completed">Completadas</string>
+    <string name="tasks_empty_title">Sin tareas en esta categoría</string>
+    <string name="tasks_empty_desc">Toca el botón + para crear una nueva tarea en tu lista.</string>
+    <string name="task_date_prefix">Fecha: %1$s</string>
+    <string name="priority_high">Alta</string>
+    <string name="priority_medium">Media</string>
+    <string name="priority_low">Baja</string>
+
+    <!-- Task Dialog -->
+    <string name="task_dialog_create_title">Crear Nueva Tarea</string>
+    <string name="task_dialog_edit_title">Editar Tarea</string>
+    <string name="task_dialog_title_label">Título de la tarea</string>
+    <string name="task_dialog_desc_label">Descripción (opcional)</string>
+    <string name="task_dialog_due_label">Fecha o plazo (ej: Hoy, 25 Feb)</string>
+    <string name="task_dialog_priority_label">Prioridad:</string>
+    <string name="task_dialog_default_due">Hoy</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Perfil de usuario</string>
+    <string name="profile_section_preferences">Preferencias</string>
+    <string name="profile_pref_notifications_title">Notificaciones</string>
+    <string name="profile_pref_notifications_sub">Recibir avisos y recordatorios de tareas</string>
+    <string name="profile_pref_dark_mode_title">Tema Oscuro</string>
+    <string name="profile_pref_dark_mode_sub">Identidad cósmica en tono oscuro</string>
+    <string name="profile_pref_sound_title">Efectos de sonido</string>
+    <string name="profile_pref_sound_sub">Sonidos en respuestas del asistente</string>
+    <string name="profile_section_app_info">Información de la aplicación</string>
+    <string name="profile_app_version">Lesli Mobile v1.0.0</string>
+    <string name="profile_app_desc">Asistente Personal Inteligente Cósmico</string>
+    <string name="profile_app_status">Estado: Modo Local (Listo para FastAPI)</string>
+    <string name="profile_btn_logout">Cerrar sesión</string>
+    <string name="profile_edit_dialog_title">Editar Perfil</string>
+    <string name="profile_edit_name_label">Nombre</string>
+    <string name="profile_edit_email_label">Correo electrónico</string>
+    <string name="profile_logout_dialog_title">¿Cerrar sesión?</string>
+    <string name="profile_logout_dialog_desc">Tu sesión local de prueba se reiniciará.</string>
+    <string name="profile_logout_confirm">Sí, cerrar</string>
+
+    <!-- Component Placeholders -->
+    <string name="search_placeholder_default">Buscar...</string>
+</resources>

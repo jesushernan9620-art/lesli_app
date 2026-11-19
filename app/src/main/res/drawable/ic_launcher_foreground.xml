@@ -1,0 +1,93 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sparkle Stars -->
+    <path
+        android:pathData="M72,16 Q72,23 79,23 Q72,23 72,30 Q72,23 65,23 Q72,23 72,16 Z"
+        android:fillColor="#FFFFFF"/>
+
+    <path
+        android:pathData="M18,34 Q18,40 24,40 Q18,40 18,46 Q18,40 12,40 Q18,40 18,34 Z"
+        android:fillColor="#FFFFFF"/>
+
+    <path
+        android:pathData="M88,64 Q88,69 93,69 Q88,69 88,74 Q88,69 83,69 Q88,69 88,64 Z"
+        android:fillColor="#42D9FF"/>
+
+    <!-- Crescent Moon Body -->
+    <path
+        android:pathData="M62,23 C43,23 30,38 30,58 C30,71 39,81 51,84 C36,81 24,67 24,51 C24,31 40,15 61,15 C68,15 76,18 80,22 C75,22 67,21 62,23 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="15"
+                android:endX="80"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E8CFFF"/>
+                <item android:offset="0.35" android:color="#A852FF"/>
+                <item android:offset="0.75" android:color="#782BFF"/>
+                <item android:offset="1.0" android:color="#42D9FF"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Craters -->
+    <path
+        android:pathData="M37,42m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#8C3AFF"
+        android:fillAlpha="0.45"/>
+    <path
+        android:pathData="M42,51m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0"
+        android:fillColor="#8C3AFF"
+        android:fillAlpha="0.45"/>
+    <path
+        android:pathData="M58,69m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0"
+        android:fillColor="#3AAEFF"
+        android:fillAlpha="0.4"/>
+
+    <!-- 3D Orbital Ring -->
+    <path
+        android:pathData="M14,67 C26,51 68,40 91,51 C100,55 95,65 82,70 C65,78 29,80 16,72 C11,69 11,66 14,67 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="11"
+                android:startY="40"
+                android:endX="100"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF52F9"/>
+                <item android:offset="0.5" android:color="#B15CFF"/>
+                <item android:offset="1.0" android:color="#42D9FF"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ring White Sparkle Line -->
+    <path
+        android:pathData="M18,66 C29,52 68,42 88,52 C94,55 90,62 80,66"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.75"
+        android:fillColor="#00000000"/>
+
+    <!-- Cosmic Cloud Layer Base -->
+    <path
+        android:pathData="M21,84 C21,78 28,72 36,76 C40,71 50,71 56,76 C61,72 70,74 72,81 C79,81 83,86 80,92 C72,98 27,99 21,84 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="21"
+                android:startY="71"
+                android:endX="83"
+                android:endY="99"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#8A32FF"/>
+                <item android:offset="1.0" android:color="#4B12A8"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

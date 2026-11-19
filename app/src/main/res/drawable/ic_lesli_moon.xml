@@ -1,0 +1,134 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Deep Cosmic Dark Circle Background -->
+    <path
+        android:pathData="M100,100m-92,0a92,92 0 1,0 184,0a92,92 0 1,0 -184,0"
+        android:fillColor="#080B18"/>
+
+    <!-- Nebula Cloud Accents Top-Left & Bottom-Right -->
+    <path
+        android:pathData="M10,40 C30,20 60,10 80,25 C60,40 30,55 10,40 Z"
+        android:fillColor="#211048"/>
+    <path
+        android:pathData="M110,180 C140,150 180,140 190,170 C170,190 130,195 110,180 Z"
+        android:fillColor="#280C5A"/>
+
+    <!-- Background Sparkles & Star Dots -->
+    <path
+        android:pathData="M42,50m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#F4F0FF"/>
+    <path
+        android:pathData="M106,30m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0"
+        android:fillColor="#B15CFF"/>
+    <path
+        android:pathData="M164,40m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0"
+        android:fillColor="#42D9FF"/>
+    <path
+        android:pathData="M152,108m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0"
+        android:fillColor="#F4F0FF"/>
+    <path
+        android:pathData="M170,142m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#42D9FF"/>
+
+    <!-- 4-Pointed Sparkle Star (Top Right) -->
+    <path
+        android:pathData="M132,28 Q132,42 146,42 Q132,42 132,56 Q132,42 118,42 Q132,42 132,28 Z"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- 4-Pointed Sparkle Star (Left) -->
+    <path
+        android:pathData="M34,62 Q34,74 46,74 Q34,74 34,86 Q34,74 22,74 Q34,74 34,62 Z"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- 4-Pointed Sparkle Star (Bottom Right) -->
+    <path
+        android:pathData="M166,116 Q166,126 176,126 Q166,126 166,136 Q166,126 156,126 Q166,126 166,116 Z"
+        android:fillColor="#42D9FF"/>
+
+    <!-- 4-Pointed Small Star (Upper Moon Backing) -->
+    <path
+        android:pathData="M118,60 Q118,66 124,66 Q118,66 118,72 Q118,66 112,66 Q118,66 118,60 Z"
+        android:fillColor="#F4F0FF"/>
+
+    <!-- Moon Body with Purple to Cyan Gradient -->
+    <path
+        android:pathData="M115,42 C80,42 56,70 56,106 C56,130 72,148 94,154 C66,148 44,122 44,92 C44,56 74,26 112,26 C126,26 140,32 148,40 C138,40 124,38 115,42 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="26"
+                android:endX="148"
+                android:endY="154"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E8CFFF"/>
+                <item android:offset="0.35" android:color="#A852FF"/>
+                <item android:offset="0.75" android:color="#782BFF"/>
+                <item android:offset="1.0" android:color="#42D9FF"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Moon Craters -->
+    <path
+        android:pathData="M68,76m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0"
+        android:fillColor="#8C3AFF"
+        android:fillAlpha="0.45"/>
+    <path
+        android:pathData="M78,92m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0"
+        android:fillColor="#8C3AFF"
+        android:fillAlpha="0.45"/>
+    <path
+        android:pathData="M108,126m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0"
+        android:fillColor="#3AAEFF"
+        android:fillAlpha="0.4"/>
+
+    <!-- 3D Orbital Ring Front Section with Magenta to Cyan Gradient -->
+    <path
+        android:pathData="M26,122 C48,92 126,72 168,92 C184,100 176,118 152,128 C120,142 54,146 30,132 C20,126 20,120 26,122 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="72"
+                android:endX="184"
+                android:endY="146"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF52F9"/>
+                <item android:offset="0.5" android:color="#B15CFF"/>
+                <item android:offset="1.0" android:color="#42D9FF"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ring Inner Glow Line -->
+    <path
+        android:pathData="M32,120 C52,94 124,76 162,94 C172,100 166,112 148,120"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.7"
+        android:fillColor="#00000000"/>
+
+    <!-- Cosmic Puffy Clouds (Bottom Horn Base) -->
+    <path
+        android:pathData="M38,154 C38,142 52,132 66,138 C74,130 92,130 102,138 C112,132 128,136 132,148 C144,148 152,158 146,168 C132,180 50,182 38,154 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="130"
+                android:endX="152"
+                android:endY="182"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#8A32FF"/>
+                <item android:offset="1.0" android:color="#4B12A8"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M92,176 C110,158 160,152 188,174 C200,184 170,200 136,198 C108,196 84,188 92,176 Z"
+        android:fillColor="#340B7A"/>
+</vector>
